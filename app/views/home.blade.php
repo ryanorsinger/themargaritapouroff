@@ -17,29 +17,61 @@
 @section('top-script')
 @stop
 @section('style')
+<style>
 	#wrap {
 	
+	}
+
+	.container {
+		position: relative;
+		width: 100%
+	}
+
+	.container img {
+		max-width: 100%;
+	}
+
+	#banner-div {
+		position: relative;
+		margin-top: 15px;
+		margin:0 auto;
 	}
 	
 	#banner-img {
 		display: block;
-		margin-top: 15px;
+		border-radius: .5em;
+		margin-top: 45px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	#date-img {
+		position: absolute;
+		padding: 0.25em;
+		top: 6em; left: 0; right: 0;
+		
+		margin-top: 15px;
+		
 
 	}
 	
 
-
+</style>
 @stop
 
 
 @section('content')
 <div id="wrap">
     <div class="container">
-      <div class="page-header" id="banner-div">
-        <div class="row">
-        	<img class="img-responsive" alt="Responsive image" id="banner-img" src="/images/logo_with_parrot.png">
+      	<div class="page-header" id="banner-div">
+      		<!-- <div class="row"> -->
+        		<img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_with_parrot.png">  
+           		<img class="img-responsive" id="date-img" src="/images/date.png">
+        	<!-- div -->
+
+
+        	<h1>Sponsored by Keller Williams Realty Heritage</h1>
+		</div>
           <div class="col-lg-6">
             <h1>Amelia</h1>
             <p class="lead">Sweet and cheery</p>
@@ -61,7 +93,8 @@
             </div>
           </div>
         </div>
-      </div>
+     
+	
 
       <!-- Navbar
       ================================================== -->
