@@ -22,14 +22,6 @@
 	
 	}
 
-	.container {
-		position: relative;
-		width: 100%
-	}
-
-	.container img {
-		max-width: 100%;
-	}
 
 	#banner-div {
 		position: relative;
@@ -49,10 +41,11 @@
 		position: absolute;
 		padding: 0.25em;
 		top: 6em; left: 0; right: 0;
-		
 		margin-top: 15px;
-		
+	}
 
+	h2 {
+		text-align: center;
 	}
 	
 
@@ -64,19 +57,65 @@
 <div id="wrap">
     <div class="container">
       	<div class="page-header" id="banner-div">
-      		<!-- <div class="row"> -->
+      		<div class="row">
         		<img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_with_parrot.png">  
            		<img class="img-responsive" id="date-img" src="/images/date.png">
-        	<!-- div -->
-
-
+        	</div>
+        </div>
+	<div class="row">
         	<h1>Sponsored by Keller Williams Realty Heritage</h1>
-		</div>
-          <div class="col-lg-6">
-            <h1>Amelia</h1>
-            <p class="lead">Sweet and cheery</p>
+		
+          <div class="col-md-6" style="padding: 15px 15px 0 15px;">
+            <h2>Event Entry $25</h2>
+            <div class="well sponsor">
+      
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/logo_with_parrot.png" width="175" height="135">
+                </span>
+              </a>
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <h4 style="margin-bottom: 0.4em;">Treehouse</h4>
+                <div class="clearfix">
+                  <p>Learn Web Design, Coding, Mobile App Development &amp; More.</p>
+                  <p>Start Learning for Free!</p>
+                </div>
+              </a>
+            </div>
+            <h2> Booth Entry $350</h2>
+            <div class="well sponsor">
+            	
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/logo_with_parrot.png" width="175" height="135">
+                </span>
+              </a>
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <h4 style="margin-bottom: 0.4em;">Treehouse</h4>
+                <div class="clearfix">
+                  <p>Learn Web Design, Coding, Mobile App Development &amp; More.</p>
+                  <p>Start Learning for Free!</p>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-6" style="padding: 15px 15px 0 15px;">
+          <div class="col-md-6" style="padding: 15px 15px 0 15px;">
+          	<h2>Raffle Tickets $25</h2>
+            <div class="well sponsor">
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/logo_with_parrot.png" width="175" height="135">
+                </span>
+              </a>
+              <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
+                <h4 style="margin-bottom: 0.4em;">Treehouse</h4>
+                <div class="clearfix">
+                  <p>Learn Web Design, Coding, Mobile App Development &amp; More.</p>
+                  <p>Start Learning for Free!</p>
+                </div>
+              </a>
+            </div>
+            <h2>5 Raffle Tickets $20</h2>
             <div class="well sponsor">
               <a href="http://srv.buysellads.com/direct/click/track/yes/x/G6NDC27ICWAI627UCWALYK7UCKBILKJMCT7I5" onclick="_gaq.push(['_trackEvent', 'banner', 'click', 'treehouse']);" rel="nofollow" target="_blank">
                 <span style="float: left; margin-right: 15px;">
@@ -92,7 +131,8 @@
               </a>
             </div>
           </div>
-        </div>
+    <hr>
+        
      
 	
 
