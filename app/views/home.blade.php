@@ -22,37 +22,43 @@
 		
 	}
 
+	.well_sponsor {
+		baground-color: #e9e5db;
+		border-radius: 85px;
+		color: #2C2F8B;
+	}
 
 	#banner-div {
 		position: relative;
 		margin-top: 10%;
 		margin:0 auto;
-		z-index: 0;
+		z-index: -10;
+		opacity: 40%;
+
 	}
 
-	.video {
-		
-	}
+
 
 	#banner-img {
 		display: block;
-
+		position: center;
 		top-margin: -20%;
 		padding-top: 5%;
 		padding-left: 10%;
-		z-index:10;
+		z-index:20;
+		border-radius: 185px;
+
 	}
 
 	#aha_logo {
 		position: center;
-		float: clearfix;
-		max-width: 30%;
-		max-height: 30%;
+		max-width: 100%;
+		max-height: 100%;
 	}
 
-	h2 {
+	h1, h2, h3 {
 		text-align: center;
-		font-family: 
+		font-family: sans-serif;	
 	}
 
 	#awards {
@@ -62,6 +68,14 @@
 
 	.jumbotron {
 		position: center;
+		border-radius: 0px;
+		background-color: #c4c4c4;
+
+	
+	}
+
+	.well {
+		border-radius: 85px;
 	}
 	
 
@@ -75,33 +89,19 @@
     <div class="container">
       	<div class="page-header" id="banner-div">
       		<div class="row">
-        		<img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/margarita_front.png">  
+        		<img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_all.png">
         	</div>
-        </div>
-    <div class="jumbotron">
+    	<center><img id="aha_logo" src="/images/aha_logo_1.png"></center>
     	<div class="row">
+    		<br>
+    		<center><img id="aha_logo" src="images/competition_info.png"></center>
+
     		<div class="col-md-6">
-    		<h2>Benefiting Agents Helping Agents</h2>
-    		<h2>Sponsored by Keller Williams Heritage</h2>
-    		<center>
-    			<img id="aha_logo" src="/images/aha_logo.png">
-    		</center>
-    	</div>
+    		
     <div class="col-md-6">
-			<p>Margarita Pour-Off and Awards<p>
-			<p>BBQ, Live Music, Raffle, and Live Auction!</p>
-			<p>6-9pm at Keller Williams Heritage</p>
-			<p>2338 N. Loop 1604 W. San Antonio, TX 78248</p>
-		</div>
+			
 	</div>
-	<div class="row">
-  			<div class="col-md-6 well">
-			<p>The "5 o' Clock Somewhere" Awards</p>
-	  			</div>
-  			<div class="col-md-6 well">
-  				<p>Margarita Pour Off Competition</p>
-  			</div>
-  </div>
+	
 	</div>
 	<a name="top"></a>
 	<div class="container">
@@ -111,12 +111,8 @@
 		
           <div class="col-md-6" style="padding: 15px 15px 0 15px;">
 
+            <center><div class="well_sponsor">   
             <h2>Event Entry $25</h2>
-            <div class="well sponsor">   
-                <span style="float: left; margin-right: 15px;">
-                  <img src="/images/logo_no_parrot.png" width="175" height="135">
-                </span>
-             
               
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_s-xclick">
@@ -129,19 +125,12 @@
 				</form>
 
                 <p style="margin-bottom: 0.4em;"></p>
-                <div class="clearfix">
-                  
-                </div>
-              </a>
-            </div>
-            <h2> Booth Entry $350</h2>
-            <div class="well sponsor">
-            	
+                
               
-                <span style="float: left; margin-right: 15px;">
-                  <img src="/images/logo_with_parrot.png" width="175" height="135">
-                </span>
-              </a>
+            </div>
+            <div class="well_sponsor">
+            <h2> Booth Entry $350</h2>
+       
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_xclick">
 				<input type="hidden" name="business" value="G5N6M7TKREJ8G">
@@ -162,19 +151,15 @@
               
                 <h4 style="margin-bottom: 0.4em;"></h4>
                 <div class="clearfix">
-                  
                 </div>
-              </a>
+              
             </div>
           </div>
           <div class="col-md-6" style="padding: 15px 15px 0 15px;">
+          	<center>
+            <div class="well_sponsor">
           	<h2>Raffle Tickets $5</h2>
-            <div class="well sponsor">
               
-                <span style="float: left; margin-right: 15px;">
-                  <img src="/images/logo_with_parrot.png" width="175" height="135">
-                </span>
-              </a>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<table>
@@ -191,15 +176,12 @@
                 <div class="clearfix">
                   
                 </div>
-              </a>
+              </center>
             </div>
+            <center>
+            <div class="well_sponsor">
             <h2>5 Raffle Tickets $20</h2>
-            <div class="well sponsor">
               
-                <span style="float: left; margin-right: 15px;">
-                  <img src="/images/logo_with_parrot.png" width="175" height="135">
-                </span>
-              </a>
              		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<table>
@@ -213,14 +195,12 @@
 
               
                 <h4 style="margin-bottom: 0.4em;"></h4>
-                <div class="clearfix">
-                 
-                </div>
+                
+                 </center>
+                
               </a>
             </div>
           </div>
-    <hr>
-        
      
 	
 
@@ -230,6 +210,7 @@
           	<a name="our_story"></a>
             <div class="page-header">
               <center><h1 id="navbar">Our Story - How it all started</h1><center>
+              	<img src="/images/bamboo_horizontal.png">
             </div>
             <center>
             <div class="video">

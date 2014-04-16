@@ -9,6 +9,18 @@
 		@yield('top-script')
 		@yield ('style')
 		
+		<style>
+
+		body {
+			background-image:url('/images/background-larger.png');
+			width: 100%;
+			height: 100%;
+			z-index: -300;
+		}
+
+
+		</style>
+		
 
 </head>
 <body>
@@ -17,7 +29,7 @@
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="../" class="navbar-brand">Keller Williams Margarita Pour Off 2014!</a>
+					<a href="/" class="navbar-brand">Keller Williams Margarita Pour Off 2014!</a>
 					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -26,10 +38,7 @@
 				</div>
 				<div class="navbar-collapse collapse" id="navbar-main">
 					<ul class="nav navbar-nav">
-						
-						</li>
 						<li>
-							
 							<a href="#top">Stir up some fun!</a>
 						</li>
 						<li>
@@ -46,11 +55,6 @@
 				</div>
 			</div>
 		</div>
-
-
-			
-
-
 		</div>
 
 <center>

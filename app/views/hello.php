@@ -11,6 +11,8 @@
 			font-family:'Lato', sans-serif;
 			text-align:center;
 			color: #999;
+			background-image: '/images/bacground.png';
+			
 		}
 
 		.welcome {
