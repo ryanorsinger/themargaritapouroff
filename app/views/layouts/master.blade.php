@@ -1,35 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-		@yield('title')
 
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link rel="stylesheet" href="/css/amelia.css">
-		@yield('top-script')
-		@yield ('style')
 		
-		<style>
-
-		body {
-			background-image:url('/images/background-larger.png');
-			width: 100%;
-			height: 100%;
-			z-index: -300;
-		}
-
-
-		</style>
-		
-
-</head>
 <body>
-@yield('content')
-<body>
-		<div class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<a href="/" class="navbar-brand">Keller Williams Margarita Pour Off 2014!</a>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">Keller Williams Margarita Pour Off 2014!</a>
 					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -43,12 +18,10 @@
 						</li>
 						<li>
 							<a href="#our_story">Our Story</a>
-						</li>
-						
+						</li>					
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
-						
 						<li><a href="https://www.facebook.com/ahakwheritage"><i class="fa fa-facebook-square"></i>&nbsp;Connect with us on Facebook</li>
 					</ul>
 
@@ -56,6 +29,8 @@
 			</div>
 		</div>
 		</div>
+	</div>
+@yield('content')
 
 <center>
 <img src="/images/contact.png">
@@ -65,11 +40,6 @@
 		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="../assets/js/bootswatch.js"></script>
  
-
-
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 </script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">

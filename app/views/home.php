@@ -1,6 +1,9 @@
-@extends('layouts.master')
-
-@section('title')
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="/css/amelia.css">
 <title>Keller Williams Heritage Margarita Pour-Off 2014 Benefiting Agents Helping Agents</title>
 <meta name="description">
 <meta name='keywords' content='San Antonio Keller Williams KW Cares Margarita Pour Off Benefiting Agents Helping Agents' />
@@ -12,16 +15,9 @@
 		<meta name="ICBM" content="29.430506, -98.483782" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-@stop
 
-@section('top-script')
-@stop
-@section('style')
+
 <style>
-	#wrap {
-		
-	}
-
 	.well_sponsor {
 		baground-color: #e9e5db;
 		border-radius: 85px;
@@ -29,25 +25,16 @@
 	}
 
 	#banner-div {
-		position: relative;
-		margin-top: 10%;
-		margin:0 auto;
-		z-index: -10;
-		opacity: 40%;
+		position: center;
+		
 
 	}
-
 
 
 	#banner-img {
 		display: block;
 		position: center;
-		top-margin: -20%;
-		padding-top: 5%;
-		padding-left: 10%;
-		z-index:20;
-		border-radius: 185px;
-
+	
 	}
 
 	#aha_logo {
@@ -77,41 +64,63 @@
 	.well {
 		border-radius: 85px;
 	}
+
+	body {
+			background-image:url('/images/background-larger.png');
+			width: 100%;
+			height: 100%;
+		}
 	
 
 </style>
-@stop
 
 
-@section('content')
-<div class="row">
+</head>
+<body>
+
 <div id="wrap">
+	<center>
     <div class="container">
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="/" class="navbar-brand">Keller Williams Margarita Pour Off 2014!</a>
+						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+				</div>
+				<div class="navbar-collapse collapse" id="navbar-main">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#top">Stir up some fun!</a>
+						</li>
+						<li>
+							<a href="#our_story">Our Story</a>
+						</li>					
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="https://www.facebook.com/ahakwheritage"><i class="fa fa-facebook-square"></i>&nbsp;Connect with us on Facebook</li>
+					</ul>
+				</div>
+			</div>
+		</div>
       	<div class="page-header" id="banner-div">
-      		<div class="row">
-        		<img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_all.png">
-        	</div>
-    	<center><img id="aha_logo" src="/images/aha_logo_1.png"></center>
-    	<div class="row">
-    		<br>
-    		<center><img id="aha_logo" src="images/competition_info.png"></center>
+      		
+        <img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_all.png">
+        
+    	<img id="aha_logo" src="/images/aha_logo_1.png">
+    	
+    	<br>
+    	<img id="aha_logo" src="images/competition_info.png">
 
-    		<div class="col-md-6">
     		
-    <div class="col-md-6">
-			
-	</div>
-	
-	</div>
 	<a name="top"></a>
-	<div class="container">
-
-       		 
-    </div>
-		
-          <div class="col-md-6" style="padding: 15px 15px 0 15px;">
-
-            <center><div class="well_sponsor">   
+	<div class="container">	
+        <div class="col-md-6">
+            <div class="well_sponsor">   
             <h2>Event Entry $25</h2>
               
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -125,9 +134,8 @@
 				</form>
 
                 <p style="margin-bottom: 0.4em;"></p>
-                
-              
-            </div>
+            </div>   
+        
             <div class="well_sponsor">
             <h2> Booth Entry $350</h2>
        
@@ -148,16 +156,12 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form>
 
-              
                 <h4 style="margin-bottom: 0.4em;"></h4>
-                <div class="clearfix">
-                </div>
-              
-            </div>
-          </div>
-          <div class="col-md-6" style="padding: 15px 15px 0 15px;">
-          	<center>
-            <div class="well_sponsor">
+            </div>      
+        </div>
+        
+        <div class="col-md-6">
+        	<div class="well_sponsor">
           	<h2>Raffle Tickets $5</h2>
               
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -169,16 +173,8 @@
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
-
-
-              
                 <h4 style="margin-bottom: 0.4em;"></h4>
-                <div class="clearfix">
-                  
-                </div>
-              </center>
             </div>
-            <center>
             <div class="well_sponsor">
             <h2>5 Raffle Tickets $20</h2>
               
@@ -187,40 +183,29 @@
 					<table>
 					<tr><td><input type="hidden" name="on0" value="5 Raffle Tickets for $20"><p>5 Raffle Tickets for $20</p></td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
 					</table>
-					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-					">
+					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-
-              
-                <h4 style="margin-bottom: 0.4em;"></h4>
-                
-                 </center>
-                
-              </a>
-            </div>
-          </div>
+					</form>                
+			</div>
+		</div>
+	</div>
      
-	
-
-      <div class="bs-docs-section clearfix">
-        <div class="row">
-          <div class="col-lg-12">
-          	<a name="our_story"></a>
-            <div class="page-header">
-              <center><h1 id="navbar">Our Story - How it all started</h1><center>
-              	<img src="/images/bamboo_horizontal.png">
-            </div>
-            <center>
-            <div class="video">
-            	<iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/-8Tr3_zMhic?rel=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </center>
-
-         
-
-
-@stop
-
+     
+        <h1>Our Story - How it all started</h1>
+        	<center><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/-8Tr3_zMhic?rel=0" frameborder="0" allowfullscreen></iframe><center>
+           
+			<center><img src="/images/contact.png"></center>
+		
+ </div>
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../assets/js/bootswatch.js"></script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
+</script>
+</body>
+</html>
 
