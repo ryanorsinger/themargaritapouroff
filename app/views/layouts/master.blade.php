@@ -30,7 +30,7 @@
 		</div>
 		</div>
 	</div>
-@yield('content')
+
 
 <center>
 <img src="/images/contact.png">
