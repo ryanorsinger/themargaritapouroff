@@ -26,15 +26,13 @@
 
 	#banner-div {
 		position: center;
-		
 
 	}
-
 
 	#banner-img {
 		display: block;
 		position: center;
-	
+
 	}
 
 	#aha_logo {
@@ -45,7 +43,7 @@
 
 	h1, h2, h3 {
 		text-align: center;
-		font-family: sans-serif;	
+		font-family: sans-serif;
 	}
 
 	#awards {
@@ -58,7 +56,7 @@
 		border-radius: 0px;
 		background-color: #c4c4c4;
 
-	
+
 	}
 
 	.well {
@@ -70,7 +68,7 @@
 			width: 100%;
 			height: 100%;
 		}
-	
+
 
 </style>
 
@@ -93,10 +91,10 @@
 				</div>
 				<div class="navbar-collapse collapse" id="navbar-main">
 					<ul class="nav navbar-nav">
-						
+
 						<li>
 							<a href="#our_story">Our Story</a>
-						</li>					
+						</li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
@@ -106,19 +104,19 @@
 			</div>
 		</div>
       	<div class="page-header" id="banner-div">
-      		
+
         <img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_all.png">
-        
+
     	<img id="aha_logo" src="/images/aha_logo_1.png">
-    	
+
     	<br>
     	<img id="aha_logo" src="images/competition_info.png">
 
-    		
+
 	<a name="our_story"></a>
-	<div class="container">	
+	<div class="container">
         <div class="col-md-6">
-            <div class="well_sponsor">   
+            <div class="well_sponsor">
             <h2>$25 Entry Donation</h2>
             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
             <input type="hidden" name="cmd" value="_s-xclick">
@@ -131,11 +129,11 @@
 
 
                 <p style="margin-bottom: 0.4em;"></p>
-            </div>   
-        
+            </div>
+
             <div class="well_sponsor">
             <h2> Booth Entry $350</h2>
-       
+
             	<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -146,13 +144,13 @@
 
 
                 <h4 style="margin-bottom: 0.4em;"></h4>
-            </div>      
+            </div>
         </div>
-        
+
         <div class="col-md-6">
         	<div class="well_sponsor">
           	<h2>Raffle Tickets $5</h2>
-              
+
 				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -166,7 +164,7 @@
             </div>
             <div class="well_sponsor">
             <h2>5 Raffle Tickets $20</h2>
-              
+
 				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -175,26 +173,25 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form>
 
-					            
+
 			</div>
 		</div>
 	</div>
-     
-     
+
+
         <h1>Our Story - How it all started</h1>
         	<center><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/-8Tr3_zMhic?rel=0" frameborder="0" allowfullscreen></iframe><center>
-           
+
 			<center><img src="/images/contact.png"></center>
-		
+
  </div>
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="../assets/js/bootswatch.js"></script>
- 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 </script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">
 </script>
 </body>
 </html>
-
