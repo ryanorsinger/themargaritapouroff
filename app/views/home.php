@@ -19,7 +19,6 @@
 
 <style>
 	.well_sponsor {
-		baground-color: #e9e5db;
 		border-radius: 85px;
 		color: #2C2F8B;
 	}
@@ -28,6 +27,32 @@
 		position: center;
 
 	}
+
+    .modal-dialog {
+        position: center;
+
+
+    }
+
+    .modal-content {
+        position: center;
+        background-color: #CCC;
+
+    }
+
+    .modal-body {
+
+    }
+
+    .modal-body img {
+        position: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+        width: 100%;
+    }
 
 	#banner-img {
 		display: block;
@@ -56,7 +81,6 @@
 		border-radius: 0px;
 		background-color: #c4c4c4;
 
-
 	}
 
 	.well {
@@ -64,15 +88,12 @@
 	}
 
 	body {
-			background-image:url('/images/background-larger.png');
-			width: 100%;
-			height: 100%;
+			background-image:url('/images/background_larger.png');
+			width: auto;
+			height: 200%;
 		}
 
-
 </style>
-
-
 </head>
 <body>
 
@@ -91,21 +112,29 @@
 				</div>
 				<div class="navbar-collapse collapse" id="navbar-main">
 					<ul class="nav navbar-nav">
-
+                        <li>
+                            <a href="/margarita_fundraiser_sign_up.pdf" target="_blank">Print Sign-Up Form</a>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" data-target="#topRaffle">Raffle Top Prize!</a>
 						<li>
+                            <a href="/sponsorship_opportunities.pdf" target="_blank">Sponsorship Opportunities</a>
+                        </li>
+                        <li>
 							<a href="#our_story">Our Story</a>
 						</li>
+                        </li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="https://www.facebook.com/ahakwheritage"><i class="fa fa-facebook-square"></i>&nbsp;Connect with us on Facebook</li>
+						<li><a target="_blank" href="https://www.facebook.com/ahakwheritage"><i class="fa fa-facebook-square"></i>&nbsp;Connect with us on Facebook</li></a>
 					</ul>
 				</div>
 			</div>
 		</div>
       	<div class="page-header" id="banner-div">
 
-        <img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/logo_all.png">
+        <img class="img-responsive" alt="Responsive banner image" id="banner-img" src="/images/event_header.png">
 
     	<img id="aha_logo" src="/images/aha_logo_1.png">
 
@@ -177,7 +206,30 @@
 			</div>
 		</div>
 	</div>
+<row>
+<br>
+<center>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<table>
+<tr><td><h2>Sponsorship Opportunities</h2><input type="hidden" name="on0" value="Sponsorship Opportunities">Sponsorship Opportunities</td></tr><tr><td><select name="os0">
+    <option value="Platinum">Platinum $1,500.00 USD</option>
+    <option value="Gold">Gold $1,000.00 USD</option>
+    <option value="Silver">Silver $500.00 USD</option>
+    <option value="Bronze">Bronze $250.00 USD</option>
+    <option value="Individual">Individual $75.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 
+</center>
+<br>
+</row>
 
         <h1>Our Story - How it all started</h1>
         	<center><iframe width="560" height="315" src="//www.youtube-nocookie.com/embed/-8Tr3_zMhic?rel=0" frameborder="0" allowfullscreen></iframe><center>
@@ -185,6 +237,26 @@
 			<center><img src="/images/contact.png"></center>
 
  </div>
+
+<!-- Top Raffle Prize Modal -->
+<div class="modal fade" id="topRaffle" tabindex="-1" role="dialog" aria-labelledby="topRaffle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive center-block" src="images/raffle_top_prize.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal">Join the Fun!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="../assets/js/bootswatch.js"></script>
