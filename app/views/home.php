@@ -117,9 +117,9 @@
                         </li>
                         <li>
                             <a data-toggle="modal" data-target="#topRaffle">Raffle Top Prize!</a>
-						<li>
+						<!-- <li>
                             <a href="/sponsorship_opportunities.pdf" target="_blank">Sponsorship Opportunities</a>
-                        </li>
+                        </li> -->
                         <li>
 							<a href="#our_story">Our Story</a>
 						</li>
@@ -143,7 +143,7 @@
 
 
 	<a name="our_story"></a>
-	<div class="container">
+	<!-- <div class="container">
         <div class="col-md-6">
             <div class="well_sponsor">
             <h2>$25 Entry Donation</h2>
@@ -205,15 +205,15 @@
 
 			</div>
 		</div>
-	</div>
-<row>
+	</div> -->
+<!-- <row>
     <br>
     <div class="well_sponsor">
     <center>
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_s-xclick">
 <!-- <table> -->
-<tr><td><h2>Sponsorship Opportunities</h2><input type="hidden" name="on0" value="Sponsorship Opportunities"></td></tr><tr><td><select name="os0">
+<!-- <tr><td><h2>Sponsorship Opportunities</h2><input type="hidden" name="on0" value="Sponsorship Opportunities"></td></tr><tr><td><select name="os0">
     <option value="Platinum">Platinum $1,500.00 USD</option>
     <option value="Gold">Gold $1,000.00 USD</option>
     <option value="Silver">Silver $500.00 USD</option>
@@ -230,7 +230,7 @@
 
 </center>
 <br>
-</row>
+</row> -->
 </div>
 
         <h1>Our Story - How it all started</h1>
